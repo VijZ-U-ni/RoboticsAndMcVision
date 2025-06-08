@@ -22,7 +22,7 @@ class Engineer:
         print(self.name, end=" ")
         print(self.type_of_engineering, end=" ")
         print(self.experience)
-mirror_name = my_Name[::-1]        
+       
 e1=Engineer(my_Name,"Mechatronics",4)
 e2=Engineer(mirror_name,"Mechatronics",8)
 e1.self_print()
